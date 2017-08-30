@@ -1,0 +1,26 @@
+{
+  "name": "crack",
+  "version": "0.0.1",
+  "description": "crack",
+  "main": "dist/crack.min.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuAoi/Crack.git"
+  },
+  "author": "YuAoi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuAoi/Crack/issues"
+  },
+  "homepage": "https://github.com/YuAoi/Crack#readme",
+  "devDependencies": {
+    "rollup": "^0.49.2",
+    "rollup-plugin-babel": "^3.0.2"
+  }
+}
