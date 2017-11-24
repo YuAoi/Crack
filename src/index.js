@@ -1,3 +1,3 @@
-export default {
-  name: 12345,
-}
+import Crack from "./crack";
+
+export default Crack;

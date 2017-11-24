@@ -6,6 +6,23 @@
     <script src="../../dist/index.js"></script>
   </head>
   <body>
-
+    <div id="app">{{ msg }}</div>
+    <script>
+    const vm = new Crack({
+      el: '#app',
+      data: {
+        id: 0,
+        sub: {
+          id: 0.1,
+          msg: 'sub',
+          // dSub: {
+          //   id: 0.01,
+          //   msg: 'dSub',
+          // }
+        }
+      }
+    })
+    console.log(vm)
+    </script>
   </body>
 </html>
